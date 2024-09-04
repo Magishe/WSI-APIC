@@ -1,0 +1,6 @@
+Data/NSCLC_Scan_20_10_g.mat filter=lfs diff=lfs merge=lfs -text
+Data/NSCLC_Scan_20_19_g.mat filter=lfs diff=lfs merge=lfs -text
+Data/NSCLC_Scan_24_16_g.mat filter=lfs diff=lfs merge=lfs -text
+Data/Siemens_Star_g.mat filter=lfs diff=lfs merge=lfs -text
+Data/2.mat filter=lfs diff=lfs merge=lfs -text
+Data/*.mat filter=lfs diff=lfs merge=lfs -text
