@@ -18,7 +18,7 @@ Top-level folder structure:
 ├── APIC_Reconstruction_WholeFOV.py    # GPU-accelerated reconstruction script for full-FOV (2560x2560) images, including auto-stitching functionality
 ├── subfunctionAPIC                    # Directory for APIC subfunctions used in the reconstruction process
 ├── Sample location segmentation       # Directory for sample location segmentation
-    ├── NSCLC.png                      # Example whole-slide image captured by the sample-locating system
+    ├── NSCLC.tif                      # Example whole-slide image captured by the sample-locating system
     ├── Sample_Segmentation.py         # Code for sample location segmentation
 └── README.md                          # Project documentation (this file)
 ```
@@ -57,7 +57,7 @@ This repository contains the codes and demonstration data for a Whole Slide Imag
 ## Usage
 
 ### 1. Sample location segmentation
-Implement `Sample_Segmentation.py` to automatically locate and segment samples from the image captured by our sample-locating system (`Sample location segmentation/NSCLC.png`).
+Implement `Sample_Segmentation.py` to automatically locate and segment samples from the image captured by our sample-locating system (`Sample location segmentation/NSCLC.tif`).
 
     python Sample_Segmentation.py
   
